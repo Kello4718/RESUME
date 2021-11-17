@@ -1,0 +1,27 @@
+.about-me {
+  width: 100%;
+  max-width: 1440px;
+
+  text-align: center;
+
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.about-me__title {
+  margin: 0 0 20px;
+}
+
+.about-me__text {
+  margin: 0 0 20px;
+}
+
+.about-me__list {
+  text-align: start;
+
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px 0;
+
+  margin: 0;
+}

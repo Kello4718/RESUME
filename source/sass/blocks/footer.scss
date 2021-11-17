@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+
+  color: white;
+  background: black;
+
+  padding: 50px;
+}
+
+.footer__wrapper {
+  width: 100%;
+  max-width: 1440px;
+
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}

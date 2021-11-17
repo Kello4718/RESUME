@@ -1,0 +1,44 @@
+@keyframes shake {
+  0%, 50%, 100% {
+    transform: rotate(0deg);
+  }
+  10%, 30% {
+    transform: rotate(-10deg);
+  }
+  20%, 40% {
+    transform: rotate(10deg);
+  }
+}
+
+.social__container {
+  width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0 auto;
+}
+
+.social__link {
+  width: 40px;
+  height: 40px;
+}
+
+.social__vk,
+.social__instagram {
+  width: 40px;
+  height: 40px;
+}
+
+.social__vk path,
+.social__instagram path {
+  width: 40px;
+  height: 40px;
+
+  fill: white;
+}
+
+.social__vk:hover,
+.social__instagram:hover {
+  animation: shake 1.2s ease-in-out
+}

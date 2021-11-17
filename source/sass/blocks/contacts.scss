@@ -1,0 +1,17 @@
+.contacts {
+  display: flex;
+  flex-flow: column;
+}
+
+.contacts__link {
+  text-decoration: none;
+  font-weight: 700;
+
+  color: $color-portfolio;
+
+  margin: 0 0 10px;
+
+  &:last-child {
+    margin: 0;
+  }
+}

@@ -1,0 +1,41 @@
+.education {
+  width: 100%;
+  max-width: 1440px;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+
+  padding: 0 50px 50px;
+  margin: 0 auto;
+}
+
+.education__title {
+  width: 100%;
+
+  text-align: center;
+
+  margin: 0 0 30px;
+}
+
+.education__info-container {
+  width: 80%;
+}
+
+.education__text {
+  margin: 0 0 10px;
+}
+
+.education__svg {
+  width: 20%;
+  height: 100px;
+}
+
+.education:hover .education__svg-a {
+  fill: orange;
+}
+
+.education:hover .education__svg-b {
+  fill: deepskyblue;
+}
